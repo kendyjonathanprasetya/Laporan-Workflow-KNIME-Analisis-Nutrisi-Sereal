@@ -2,7 +2,7 @@
 Workflow KNIME ini membersihkan dan menganalisis data nutrisi 11 merek sereal (cereal) untuk menghasilkan dataset mini yang konsisten, bebas duplikat, dan siap dipakai visualisasi maupun modeling lanjutan.
 ## 📁 Dataset Masukan
 File: https://d.docs.live.net/8F1EA89ED3B71980/Documents/CSV%20SEREAL%20DUPLIKAT.csv
----
+
 Jumlah baris/kolom awal: 11 baris × 16 kolom
 ---
 Kolom:
