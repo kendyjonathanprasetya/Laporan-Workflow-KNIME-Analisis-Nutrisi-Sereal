@@ -3,23 +3,40 @@ Workflow KNIME ini membersihkan dan menganalisis data nutrisi 11 merek sereal (c
 ## 📁 Dataset Masukan
 File: https://d.docs.live.net/8F1EA89ED3B71980/Documents/CSV%20SEREAL%20DUPLIKAT.csv
 Jumlah baris/kolom awal: 11 baris × 16 kolom
+
 Kolom:
 name → nama produk sereal (contoh: “Corn_Flakes”, “All-Bran”).
+
 mfr → singkatan “manufacturer” (pabrikan); K = Kellogg’s, G = General Mills, Q = Quaker, R = Ralston, P = Post, N = Nabisco, A = American Home.
+
 type → jenis sereal: C = cold (makan dingin), H = hot (bubuk, diseduh air/panas).
+
 calories → energi per serving (kcal); semakin tinggi semakin “berat” kalorinya.
+
 protein → protein per serving (gram); tinggi = lebih mengenyangkan.
+
 fat → lemak per serving (gram); kita kejar yang rendah.
+
 sodium → garam (mg); rendah = lebih sehat untuk jantung.
+
 fiber → serat pangan (gram); tinggi = baik pencernaan, kolesterol.
+
 carbo → karbohidrat total (gram); sumber energi utama.
+
 sugars → gula tambahan (gram); rendah = ideal untuk diet rendah gula.
+
 potass → kalium (mg); bagus tekanan darah, tapi sering kosong → kita buang.
+
 vitamins → persen AKG vitamin tambahan (0, 25, atau 100 %); kita anggap tidak variatif.
+
 shelf → nomor rak display (1, 2, 3); info penjualan, bukan nutrisi → kita buang.
+
 weight → berat isi kemasan (oz); info kemasan → kita buang.
+
 cups → volume per serving (cup); info takaran → kita buang.
+
 rating → skor panelis (0–100); semakin tinggi semakin “enak” menurut penguji.
+
 
 ## 🔄 Alur Workflow & Penjelasan Langkah
 - CSV Reader 📥
