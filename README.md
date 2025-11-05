@@ -2,13 +2,10 @@
 Workflow KNIME ini membersihkan dan menganalisis data nutrisi 11 merek sereal (cereal) untuk menghasilkan dataset mini yang konsisten, bebas duplikat, dan siap dipakai visualisasi maupun modeling lanjutan.
 ## 📁 Dataset Masukan
 File: https://d.docs.live.net/8F1EA89ED3B71980/Documents/CSV%20SEREAL%20DUPLIKAT.csv
-
 Jumlah baris/kolom awal: 11 baris × 16 kolom
----
+
 Kolom:
-
 name → nama produk sereal (contoh: “Corn_Flakes”, “All-Bran”).
-
 mfr → singkatan “manufacturer” (pabrikan); K = Kellogg’s, G = General Mills, Q = Quaker, R = Ralston, P = Post, N = Nabisco, A = American Home.
 
 type → jenis sereal: C = cold (makan dingin), H = hot (bubuk, diseduh air/panas).
@@ -38,7 +35,7 @@ weight → berat isi kemasan (oz); info kemasan → kita buang.
 cups → volume per serving (cup); info takaran → kita buang.
 
 rating → skor panelis (0–100); semakin tinggi semakin “enak” menurut penguji.
----
+
 
 ## 🔄 Alur Workflow & Penjelasan Langkah
 - CSV Reader 📥
