@@ -5,7 +5,9 @@ File: https://d.docs.live.net/8F1EA89ED3B71980/Documents/CSV%20SEREAL%20DUPLIKAT
 Jumlah baris/kolom awal: 11 baris × 16 kolom
 
 Kolom:
+
 name → nama produk sereal (contoh: “Corn_Flakes”, “All-Bran”).
+
 mfr → singkatan “manufacturer” (pabrikan); K = Kellogg’s, G = General Mills, Q = Quaker, R = Ralston, P = Post, N = Nabisco, A = American Home.
 
 type → jenis sereal: C = cold (makan dingin), H = hot (bubuk, diseduh air/panas).
